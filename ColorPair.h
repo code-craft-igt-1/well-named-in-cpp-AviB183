@@ -16,6 +16,6 @@ namespace TelCoColorCoder
 
         MajorColor getMajor();
         MinorColor getMinor();
-        std::string ToString();
+        std::string toString();
     };
 }

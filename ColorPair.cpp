@@ -36,7 +36,7 @@ namespace TelCoColorCoder
         return m_minorColor;
     }
 
-    std::string CColorPair::ToString()
+    std::string CColorPair::toString()
     {
 		return (std::string(MajorColorNames[m_majorColor]) + std::string(" ") + std::string(MinorColorNames[m_minorColor]));
     }

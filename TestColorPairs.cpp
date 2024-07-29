@@ -8,7 +8,7 @@
 void testNumberToPair(const int &pairNumber, const MajorColor &expectedMajor, const MinorColor &expectedMinor)
 {
 	CColorPair colorPair = CColorPairUtil::GetColorFromPairNumber(pairNumber);
-	std::cout << "Got pair " << colorPair.ToString() << std::endl;
+	std::cout << "Got pair " << colorPair.toString() << std::endl;
 	assert(colorPair.getMajor() == expectedMajor);
 	assert(colorPair.getMinor() == expectedMinor);
 }
